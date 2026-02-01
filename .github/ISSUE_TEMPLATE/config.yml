@@ -1,0 +1,12 @@
+# File: .github/ISSUE_TEMPLATE/config.yml
+blank_issues_enabled: false
+contact_links:
+  - name: Website
+    url: https://pas7.com.ua/
+    about: Pas7 Studio website.
+  - name: LinkedIn
+    url: https://www.linkedin.com/company/pas7-studio
+    about: Partnerships and professional inquiries.
+  - name: Security reports
+    url: https://github.com/pas7studio/cargo-fastdev/security/advisories/new
+    about: Please report security issues privately.

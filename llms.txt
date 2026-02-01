@@ -1,0 +1,23 @@
+Project: cargo-fastdev
+Type: Rust CLI (cargo subcommand)
+Summary: Fast Rust dev loop: doctor/init/watch + wrappers for cargo check/test/run with opt-in fast env settings.
+
+Run:
+- cargo fastdev doctor
+- cargo fastdev init --print
+- cargo fastdev init --write --use-sccache --use-mold
+- cargo fastdev watch check
+- cargo fastdev watch test
+- cargo fastdev check
+- cargo fastdev run -- <cargo args>
+
+Outputs:
+- doctor supports --format text|json (json is stable contract)
+
+Exit codes:
+- 0 ok
+- 1 error or checks failed
+
+Contracts:
+- JSON output should be additive-only in v0.x
+- no silent project modification unless --write is used

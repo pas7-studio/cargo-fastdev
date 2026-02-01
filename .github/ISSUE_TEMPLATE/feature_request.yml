@@ -1,0 +1,27 @@
+# File: .github/ISSUE_TEMPLATE/feature_request.yml
+name: Feature request
+description: Suggest an improvement or new feature
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem statement
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: constraints
+    attributes:
+      label: Constraints
+      options:
+        - label: stable Rust only
+        - label: deterministic output
+        - label: no silent file modifications (only with --write)
