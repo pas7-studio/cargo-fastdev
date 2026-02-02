@@ -8,5 +8,5 @@ contact_links:
     url: https://www.linkedin.com/company/pas7-studio
     about: Partnerships and professional inquiries.
   - name: Security reports
-    url: https://github.com/pas7studio/cargo-fastdev/security/advisories/new
+    url: https://github.com/pas7-studio/cargo-fastdev/security/advisories/new
     about: Please report security issues privately.
